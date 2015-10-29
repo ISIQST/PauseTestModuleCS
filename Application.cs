@@ -45,7 +45,7 @@ public bool CustomStressSupport
 		{
 			if (!(modMain.QST == null))
 			{
-				modMain.QST.QuasiParameters.UnregisterTestClass(ref clsTest.SharedTestID);
+				modMain.QST.QuasiParameters.UnregisterTestClass2(clsTest.SharedTestID);
 			}
 			
 			modMain.QST = null;
